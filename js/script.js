@@ -1,7 +1,13 @@
+let Currentplayer = "x";
+
+function performLogic( button , tile){
 
 
-
-
+if( Currentplayer === "x" ){
+Currentplayer = "O";
+}else
+console.log(Currentplayer);
+}
 
 
 
