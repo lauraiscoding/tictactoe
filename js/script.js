@@ -4,8 +4,10 @@ let gameEnd = false;
 
 function addTurn(){
     numberofTurns ++;
+    $("p").html("Moves" + ":" + numberofTurns);
     if(numberofTurns === 9){
         gameEnd = true;
+        
     }
     console.log(gameEnd);
 }
